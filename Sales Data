@@ -1,0 +1,403 @@
+---CREATE DATABASE STATEMENT
+CREATE DATABASE [ExpressSales];
+
+--CREATE DATABASE TABLE
+CREATE TABLE Regional_Sales_Table (SalesID	VARCHAR(253)
+								  ,Date_of_sales DATE
+							    ,Region	VARCHAR(253)
+								  ,City	VARCHAR(253)
+								  ,Category	VARCHAR(253)
+							    ,Products	VARCHAR(253)
+                  ,Qty	INT
+                  ,UnitPrice VARCHAR(253)
+								);
+
+INSERT INTO [dbo].[Regional_Sales_Table]
+VALUES('ID07351',	'2022/01/01',	'East',	'Boston',	'Bars',	'Carrot',	'33',	'1.77'),
+	  ('ID07352',	'2022/04/01',	'East',	'Boston',	'Crackers',	'Whole Wheat',	'87',	'3.49'),
+	  ('ID07353',	'2022/01/07',	'West',	'Los Angeles',	'Cookies',	'Chocolate Chip',	'58',	'1.87'),
+	  ('ID07354',	'2022/01/10',	'East',	'New York',	'Cookies',	'Chocolate Chip',	'82', '1.87');
+
+/* ALTER TABLE STATEMENTS
+1. CREATE A NEW TABLE IN AN EXISTING TABLE
+2.DELETE AN EXISTING COLUMN
+3.CHANGE THE DATA TYPE IN COLUMN
+4.UPDATE TABLE STATEMENT
+5. DELETE FROM STATEMENT 
+*/
+
+-- CREATE A NEW TABLE IN AN EXISTING TABLE
+ALTER TABLE [dbo].[Regional_Sales_Table]
+ADD AGE INT
+
+ALTER TABLE [dbo].[Sales Managers Record]
+ADD AGE INT
+
+ALTER TABLE [dbo].[Regional_Sales_Table]
+ADD Salary DECIMAL(6,2);
+
+--DELETE AN EXISTING COLUMN
+ALTER TABLE [dbo].[Regional_Sales_Table]
+DROP COLUMN Salary;
+
+ALTER TABLE [dbo].[Regional_Sales_Table]
+DROP COLUMN AGE;
+
+--CHANGE THE DATA TYPE IN COLUMN
+ALTER TABLE [dbo].[Regional_Sales_Table]
+ALTER COLUMN [AGE] DECIMAL(6,2);
+
+ALTER TABLE [dbo].[Regional_Sales_Table]
+ALTER COLUMN [UnitPrice] DECIMAL (6,2);
+
+--UPDATE TABLE STATEMENT
+UPDATE [dbo].[Sales Managers Record]
+SET [AGE]  = DATEDIFF(YEAR, [Date_of_Birth],GETDATE());
+
+UPDATE [dbo].[Sales Managers Record]
+SET [City] = 'Paris'
+where [SalesPersonID] = 'ID004'
+
+--DELETE FROM STATEMENT 
+DELETE FROM [dbo].[Sales Managers Record]
+WHERE [AGE] <= 35;
+
+
+--- DATA MANIPULATION LANGUAGE
+SELECT * 
+FROM [dbo].['Workplace Safety Data$'];
+
+
+SELECT Date
+	  ,department
+	  ,[incident cost]
+FROM [dbo].['Workplace Safety Data$']
+
+--sql where clause
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE Plant = 'Georgia' AND [Incident cost] > 1000;
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE Plant != 'Georgia';
+
+SELECT * 
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Incident type] = 'Fall';
+
+select *
+from [dbo].['Workplace Safety Data$']
+where [incident type] != 'Fall';
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE Plant IN ('Califonia', 'georgia');
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE Plant NOT IN ('CALIFONIA', 'GEORGIA')
+
+--AND & OR OPERATOR
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE Plant = 'califonia'
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE Plant = 'Alabama' AND [Incident cost] > 1000;
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE Plant = 'Alabama' OR [Incident cost] > 1000;
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+
+--SQL Wildcard Characters
+/*
+In Excel -?, *
+In SQL _,
+*/
+
+--Pull back any Plant that starts with letter A
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] like 'A%';
+
+--Pull back Incident type that starts with letter C
+SELECT * 
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Incident Type] LIKE 'C%';
+
+--Pull back Incident type that ends with letter E
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Incident Type] LIKE '%E';
+
+--Pull back any Plant that Has  letter A
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] like '%A%';
+
+--- Bring Back Only The Top 5  (SQL TOP CLAUSE)
+SELECT TOP (5) *
+FROM [dbo].['Workplace Safety Data$']
+
+--- Bring Back Only 30% OF the Data
+SELECT TOP 5 PERCENT *
+FROM [dbo].['Workplace Safety Data$'];
+
+---SQL ORDER BY CLAUSE
+
+--SORT THE DATA IN ASC ORDER BY THE INCIDENT COST
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+ORDER BY [Incident Cost];
+
+--SORT THE DATA IN DESC ORDER BY THE INCIDENT COST
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+ORDER BY [Incident Cost] DESC;
+
+--SORT THE TOP 5 FOR PLANTS IN FLORIDA IN A DESC ORDER BY THE INCIDENT COST
+SELECT TOP (5)*
+FROM [dbo].['Workplace Safety Data$']
+WHERE PLANT = 'FLORIDA'
+ORDER BY [Incident Cost] DESC
+--SORT THE TOP 5 FOR PLANTS IN FLORIDA & ALABAMA  IN A DESC ORDER BY THE INCIDENT COST
+
+SELECT TOP (5)*
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Plant] IN ('FLORIDA', 'ALABAMA')
+ORDER BY [Incident Cost] DESC
+
+
+--AGGREGATE FUNCTION  - MAX, MIN, AVG, COUNT, SUM
+
+SELECT *
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT SUM ([Incident Cost]) AS Total_Incident_Cost
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT MAX ([Incident Cost]) AS Highest_Incident_Cost
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT Min ([Incident Cost]) AS Lowest_Incident_Cost
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT count(*) AS TOTAL_NUMBER
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT count(*)
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Gender] = 'MALE';
+
+SELECT count(*)
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Gender] = 'FEMALE';
+
+SELECT SUM ([Incident Cost]) AS Total_Incident_Cost
+FROM [dbo].['Workplace Safety Data$']
+
+SELECT SUM ([Incident Cost]) AS Total_Incident_Cost
+FROM [dbo].['Workplace Safety Data$']
+WHERE [Incident Type] IN ('Burn', 'fall');
+
+ --SQL GROUPBY CLAUSE
+ SELECT [Report Type],
+		SUM ([Incident Cost])
+FROM [dbo].['Workplace Safety Data$'] 
+GROUP BY [Report Type];
+
+ SELECT [Report Type],
+		AVG ([Incident Cost])
+FROM [dbo].['Workplace Safety Data$'] 
+GROUP BY [Report Type];
+
+SELECT [Plant],
+		AVG ([Incident Cost])
+FROM [dbo].['Workplace Safety Data$'] 
+GROUP BY [PLANT];
+
+SELECT [Plant],
+		[Gender],
+		AVG ([Incident Cost])
+FROM [dbo].['Workplace Safety Data$'] 
+GROUP BY [PLANT],
+		[Gender]
+ORDER BY [PLANT] ASC;
+
+SELECT [Plant],
+		[Gender], 
+		AVG ([Incident Cost]) AS AVG_INCIDENT_COST,
+		SUM ([Incident Cost]) AS TOTAL_INCIDENT_COST,
+		COUNT (*) AS NUMBER_OF_INCIDENT_COST
+FROM [dbo].['Workplace Safety Data$'] 
+WHERE [PLANT] IN ('California','ALABAMA', 'CALIFONIA')
+GROUP BY [PLANT],
+		[Gender]
+ORDER BY [PLANT] ASC
+;
+
+DELETE FROM [dbo].['Workplace Safety Data$']
+WHERE [Gender] = 'FEMALE' AND [PLANT]= 'Alabama';
+
+---WINDOWS FUNCTION
+--1. AGGREGATE FUNCTION AS WINDOW FUNCTION
+---2. RANK FUNCTION
+----3. ROW NUMBER
+
+SELECT *, SUM([Incident Cost]) AS INCIDENT_COST_TOTAL
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY [Date]
+      ,[Injury Location]
+      ,[Gender]
+      ,[Age Group]
+      ,[Incident Type]
+      ,[Days Lost]
+      ,[Plant]
+      ,[Report Type]
+      ,[Shift]
+      ,[Department]
+      ,[Incident Cost]
+      ,[WkDay]
+      ,[Month]
+      ,[Year]
+
+SELECT *, SUM([Incident Cost]) AS INCIDENT_COST_TOTAL
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY [Date]
+      ,[Injury Location]
+      ,[Gender]
+      ,[Age Group]
+      ,[Incident Type]
+      ,[Days Lost]
+      ,[Plant]
+      ,[Report Type]
+      ,[Shift]
+      ,[Department]
+      ,[Incident Cost]
+      ,[WkDay]
+      ,[Month]
+      ,[Year]
+
+SELECT *, SUM([Incident Cost]) AS INCIDENT_COST_TOTAL
+FROM [dbo].['Workplace Safety Data$']
+GROUP BY [Date]
+      ,[Injury Location]
+      ,[Gender]
+      ,[Age Group]
+      ,[Incident Type]
+      ,[Days Lost]
+      ,[Plant]
+      ,[Report Type]
+      ,[Shift]
+      ,[Department]
+      ,[Incident Cost]
+      ,[WkDay]
+      ,[Month]
+      ,[Year]
+
+SELECT *, 
+        SUM([Qty]) OVER () AS INCIDENT_COST_TOTAL
+FROM [dbo].['Food supply$']
+
+SELECT *, 
+        SUM([Qty]) OVER (PARTITION BY (CITY)) AS INCIDENT_COST_TOTAL
+FROM [dbo].['Food supply$']
+
+--TO CHECK FOR DUPLICATES
+--THIS WILL RETURN ONLY TABLES THAT HAS NO DUPLICATE
+WITH DummyTable AS (
+SELECT *, 
+        ROW_NUMBER() OVER (PARTITION BY ID ORDER BY [ID]) AS Duplicate
+FROM [dbo].['Food supply$']
+)
+SELECT *
+FROM DummyTable
+where Duplicate = 1;
+
+
+--
+WITH UNKNOWN_TABLE AS 
+(
+SELECT *
+        ,RANK() OVER(PARTITION BY [CITY] ORDER BY QTY DESC) AS DUPLICATE
+FROM [dbo].['Food supply$']
+)
+SELECT *
+FROM UNKNOWN_TABLE
+WHERE DUPLICATE = 1;
+
+---WEEK 9
+with ChimaJR_Table AS
+(
+SELECT [Date],[Injury Location],
+        CASE
+        WHEN [Incident Cost] < 100 THEN 'Cheap Cost (CC))'
+        WHEN [Incident Cost] <=1000 THEN 'Affordable Cost (AC)'
+        ELSE 'Expensive Cost (EC)'
+        END Incident_Cost_Category
+        ,CASE
+        WHEN [Injury Location] = 'N/A' THEN 'TECH DRIVE'
+        ELSE [Injury Location] 
+        END [NEW INJURY LOCATION]
+FROM [dbo].['Workplace Safety Data$']
+)
+
+SELECT COUNT(*)
+FROM ChimaJR_Table
+WHERE Incident_Cost_Category = 'Cheap Cost (CC))'
+
+--SQL UNION
+
+SELECT 
+        [EmpId]
+      ,[Project]
+      ,[Salary]
+      ,[Variable]
+FROM [dbo].[Employee_Salary$]
+
+SELECT [EmpID]
+      ,[EmpFname]
+      ,[EmpLname]
+      ,[Department]
+      ,[Project]
+      ,[Address]
+      ,[DOB]
+      ,[Gender]
+FROM [dbo].['Employee Info$']
+
+SELECT [EmpId]
+          ,[Project]
+FROM [dbo].[Employee_Salary$]
+
+UNION ALL
+
+SELECT [EmpID]
+         ,[EmpFname]
+FROM [dbo].['Employee Info$']
+
+--EXAMPLE 2
+SELECT I.[EmpID]
+      ,I.[EmpFname]
+      ,I.[EmpLname]
+      ,I.[Department]
+      ,I.[Project]
+      ,I.[Address]
+      ,I.[DOB]
+      ,I.[Gender]
+       ,P.[EmpID]
+       ,P.[EmpPosition]
+       ,P.[DateOfJoining]
+       ,P.[Salary]
+FROM [dbo].['Employee Info$'] AS I
+JOIN [dbo].['Employee position$']AS P
+ON I.[EmpID] = P.[EmpID]
+--where [EmpPosition] = 'Manager'
+
+SELECT *
+FROM [dbo].['Employee position$']
