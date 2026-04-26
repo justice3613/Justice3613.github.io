@@ -2,7 +2,7 @@
 
 # Project 1
 
-**Title:** [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/justice3613.github.io/blob/main/online_courses_uses.xlsx)
+**Title:** [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_courses_uses.xlsx)
 
 **Tools Used:** Microsoft Excel (Data cleaning, transformation, dashboard creation), Pivot Tables & Charts (Data summarization and visualization),
 Data Visualization Techniques (KPIs, bar charts, line charts, slicers)
