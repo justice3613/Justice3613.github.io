@@ -59,7 +59,7 @@ This dashboard serves as a practical tool for analyzing online course performanc
 
 **Title:** SQL Data Definition Language Sales Data
 
-**SQL Code:** [Sales Data](https://github.com/justice3613/justice3613.github.io/blob/main/Sales_data.sql)
+**SQL Code:** [Sales Data](https://github.com/justice3613/Justice3613.github.io/blob/main/Sales%20Data)
 
 **SQL Skills Used:** 
 - Creating databases and tables using CREATE DATABASE and CREATE TABLE  
@@ -88,7 +88,7 @@ Overall, this project highlights practical SQL skills in database design, data t
 
 **Title:** Employee Management System SQL Queries
 
-**SQL Code:** [Employee Management System](https://github.com/justice3613/justice3613.github.io/blob/main/Employee%20Management%20System.sql)
+**SQL Code:** [Employee Management System](https://github.com/justice3613/Justice3613.github.io/blob/main/Employee%20Management%20System)
 
 **SQL Skills Used:** 
 - Writing SELECT queries to pull specific data
@@ -112,7 +112,7 @@ There are tables in the dataset like EmployeeDetails and EmployeeSalary that let
 
 **Title:**  SQL MultiTable Queries and Reports
 
-**SQL Code:** [SQL MultiTable Queries and Reports](https://github.com/justice3613/justice3613.github.io/blob/main/SQL_MultiTable_Queries_and_Reports.sql)
+**SQL Code:** [SQL MultiTable Queries and Reports](https://github.com/justice3613/Justice3613.github.io/blob/main/SQL%20MultiTable%20Queries%20and%20Reports)
 
 **SQL Skills Used:** 
 - Writing multi table queries using JOIN (INNER, LEFT, RIGHT, CROSS)
