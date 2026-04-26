@@ -52,7 +52,9 @@ This dashboard serves as a practical tool for analyzing online course performanc
 - Introduce certificates or rewards to motivate completion and also try using interactive elements (quizzes, assignments, projects).
 - optimize pricing strategy, some categories (like office tools & data science) are more expensive test tiered pricing (basic vs premium versions), offer discounts or bundles for high priced courses, align pricing with course length, value, and demand.
 - leverage high rated categories like (programming and data science) that have the best ratings, promote these courses more aggressively, use them as benchmark standards for other categories, expand into related niche topics.
+  
 ---
+
 # Project 2
 
 **Title:** SQL Data Definition Language Sales Data
