@@ -64,7 +64,9 @@ This dashboard serves as a practical tool for analyzing online course performanc
 - Microsoft Excel (Pivot Tables, Power Query)
 - Data Cleaning & Transformation
 - Data Visualization
+  
 ---
+
 ## 📌 Project Description:
 This project explores how GRE scores, CGPA, research experience, and supporting documents (SOP & LOR) influence admission chances all through an interactive Excel dashboard designed for quick, real insights.
 
