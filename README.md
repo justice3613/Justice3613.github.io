@@ -1,52 +1,48 @@
 # Data analytic portfolio 
 
-# Project 1
+# 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_courses_uses.xl)
 
-# [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_courses_uses.xlsx)
+## 📌 Overview
+This project analyzes online course data to understand patterns in student engagement, completion rates, and platform performance. The goal is to identify what drives course success across different categories and learning platforms.
 
-## 🛠 Tools Used
-- Microsoft Excel (Data cleaning, transformation, dashboard creation)
-- Pivot Tables & Charts (Data summarization and visualization)
-- Data Visualization Techniques (KPIs, bar charts, line charts, slicers)
+The dashboard provides an interactive view of how factors like category, platform, pricing, and ratings influence enrollment and completion behavior.
 
-## 📌 Project Description:
+---
 
-This project involved analyzing online course data to identify trends and patterns in course performance, engagement, and pricing across different platforms. It is designed to provide a comprehensive overview of key performance metrics within the online learning space.  
-
-The dashboard allows stakeholders to easily monitor and evaluate course performance across categories, platforms, and key indicators such as enrollment and completion rates.  
-
-**Dashboard Features:**
-
-- **Most Engaged Courses:** Visual representation of course categories with the highest user engagement levels  
-- **Top 5 Most Expensive Courses:** Highlights the pricing distribution of the most expensive course categories  
-- **Most Used Platforms by Completion Rate:** Shows platform performance based on course completion rates  
-- **Most Enrolled Categories:** Displays categories with the highest number of enrolled students  
-- **Average Rating by Category:** Breaks down user ratings across different course categories  
-- **Top 5 Courses by Completion Rates:** Identifies courses with the highest completion rates
-  
 **Filters Available:**
 
 - **Category:** Analyze performance across different course categories  
-- **Platform:** Compare performance across learning platforms  
+- **Platform:** Compare performance across learning plat
 
 ---
 
-## 📈 Key findings
-
-- **High Engagement Categories:** Business and Office Tools courses show the highest engagement levels  
-- **Pricing Trends:** Office Tools and Data Science courses tend to be more expensive  
-- **Platform Performance:** Udemy has the highest completion rates among the platforms analyzed  
-- **Enrollment Insights:** Marketing and Finance categories attract the most students  
-- **Top-Rated Categories:** Programming and Data Science receive the highest average ratings  
-- **Engagement Gap:** There is a noticeable gap between enrollments and completion rates, suggesting drop-off in user retention  
+## 🛠 Tools Used
+- Microsoft Excel (Pivot Tables, Power Query)
+- Data Cleaning & Transformation
+- Data Visualization
 
 ---
 
-This dashboard serves as a practical tool for analyzing online course performance and provides clear, actionable insights to support better decision-making.
+## 📊 Features
+- Interactive filters for course category and platform
+- Comparison of engagement levels across course types
+- Analysis of completion rates by platform
+- Identification of top-performing courses and categories
+- KPI cards for quick performance overview
 
+---
 
-## 📷 Dashboard Overview:
-![courseScreenShot](OnlineCourse.png)
+## 📈 Key Insights
+- Business and Office Tools courses show the highest engagement levels
+- Programming and Data Science courses have the highest average ratings
+- Udemy demonstrates the strongest completion rates among platforms
+- Marketing courses attract the highest enrollments but do not always lead to the highest completion rates, indicating potential engagement or content quality gaps
+- Higher-priced courses tend to cluster in technical and professional categories
+
+---
+
+## 📷 Dashboard Preview
+![courseScreenShot](OnlineCourse_dashboard.png)
   
 ---
 
