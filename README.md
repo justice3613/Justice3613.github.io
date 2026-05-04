@@ -45,7 +45,7 @@ The dashboard allows stakeholders to easily monitor and evaluate course performa
 This dashboard serves as a practical tool for analyzing online course performance and provides clear, actionable insights to support better decision-making.
 
 
-**Dashboard Overview:**
+## 📷 Dashboard Overview:
 ![courseScreenShot](OnlineCourse.png)
 
 **Recommendations for Improving Engagement & Performance**
@@ -58,7 +58,7 @@ This dashboard serves as a practical tool for analyzing online course performanc
 ---
 
 # Project 2
-# 🎓[University Admission Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_courses_uses.xlsx)
+# 🎓[University Admission Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
 
 ## 🛠 Tools Used
 - Microsoft Excel (Pivot Tables, Power Query)
