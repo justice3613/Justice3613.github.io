@@ -2,12 +2,14 @@
 
 # Project 1
 
-**Title:** [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_courses_uses.xlsx)
+# [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_courses_uses.xlsx)
 
-**Tools Used:** Microsoft Excel (Data cleaning, transformation, dashboard creation), Pivot Tables & Charts (Data summarization and visualization),
-Data Visualization Techniques (KPIs, bar charts, line charts, slicers)
+## 🛠 Tools Used
+- Microsoft Excel (Data cleaning, transformation, dashboard creation)
+- Pivot Tables & Charts (Data summarization and visualization)
+- Data Visualization Techniques (KPIs, bar charts, line charts, slicers)
 
-**Project Description:** 
+## 📌 Project Description:
 
 This project involved analyzing online course data to identify trends and patterns in course performance, engagement, and pricing across different platforms. It is designed to provide a comprehensive overview of key performance metrics within the online learning space.  
 
@@ -29,7 +31,7 @@ The dashboard allows stakeholders to easily monitor and evaluate course performa
 
 ---
 
-**Key findings:**
+## 📈 Key findings
 
 - **High Engagement Categories:** Business and Office Tools courses show the highest engagement levels  
 - **Pricing Trends:** Office Tools and Data Science courses tend to be more expensive  
@@ -56,23 +58,17 @@ This dashboard serves as a practical tool for analyzing online course performanc
 ---
 
 # Project 2
-# 🎓 University Admission Dashboard
-
-What actually gets you into a top university?
-
-This project explores how GRE scores, CGPA, research experience, and supporting documents (SOP & LOR) influence admission chances — all through an interactive Excel dashboard designed for quick, real insights.
-
-# 🎓 University Admission Dashboard
-
-## 📌 Overview
-This project analyzes the key factors influencing university admission probability using an interactive Excel dashboard. It focuses on understanding how academic performance and supporting elements combine to impact outcomes.
-
----
+# 🎓[University Admission Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_courses_uses.xlsx)
 
 ## 🛠 Tools Used
 - Microsoft Excel (Pivot Tables, Power Query)
 - Data Cleaning & Transformation
 - Data Visualization
+---
+## 📌 Project Description:
+This project explores how GRE scores, CGPA, research experience, and supporting documents (SOP & LOR) influence admission chances all through an interactive Excel dashboard designed for quick, real insights.
+
+This project analyzes the key factors influencing university admission probability using an interactive Excel dashboard. It focuses on understanding how academic performance and supporting elements combine to impact outcomes.
 
 ---
 
@@ -84,12 +80,12 @@ This project analyzes the key factors influencing university admission probabili
 
 ---
 
-## 📈 Key Insights
+## 📈 Key findings
 - Higher **GRE scores** increase admission probability, especially above 320+
 - **CGPA** is the strongest driver of admission success
 - **Research experience** adds value but is secondary to academics
 - Strong **SOP & LOR** can significantly boost chances in competitive profiles
-- Top universities require a balanced, all-round strong application
+- Top universities require a balanced, all round strong application
 
 ---
 
@@ -99,18 +95,9 @@ Admissions are not based on a single factor. Strong academics form the foundatio
 ---
 
 ## 📷 Dashboard Preview
-![Dashboard Screenshot](dashboard-preview.png)
+![Dashboard Screenshot](dashboard-preview.png) 
 
 ---
-
-## 🚀 How to Use
-1. Open the Excel file  
-2. Use filters (left panel) to adjust profile inputs  
-3. Analyze how admission probability changes  
-
----
-
-## 📁 Project Structure
 
 # Project 3
 
@@ -141,7 +128,7 @@ Overall, this project highlights practical SQL skills in database design, data t
 
 ---
 
-# Project 3
+# Project 4
 
 **Title:** Employee Management System SQL Queries
 
@@ -165,7 +152,7 @@ There are tables in the dataset like EmployeeDetails and EmployeeSalary that let
 **Technology used:** SQL server
 
 ---
-# Project 4
+# Project 5
 
 **Title:**  SQL MultiTable Queries and Reports
 
