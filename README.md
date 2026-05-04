@@ -56,6 +56,63 @@ This dashboard serves as a practical tool for analyzing online course performanc
 ---
 
 # Project 2
+# 🎓 University Admission Dashboard
+
+What actually gets you into a top university?
+
+This project explores how GRE scores, CGPA, research experience, and supporting documents (SOP & LOR) influence admission chances — all through an interactive Excel dashboard designed for quick, real insights.
+
+# 🎓 University Admission Dashboard
+
+## 📌 Overview
+This project analyzes the key factors influencing university admission probability using an interactive Excel dashboard. It focuses on understanding how academic performance and supporting elements combine to impact outcomes.
+
+---
+
+## 🛠 Tools Used
+- Microsoft Excel (Pivot Tables, Power Query)
+- Data Cleaning & Transformation
+- Data Visualization
+
+---
+
+## 📊 Features
+- Interactive filters (GRE score, CGPA group, research experience)
+- Visual breakdown of admission probability
+- Comparative analysis across different student profiles
+- Clean and intuitive dashboard layout
+
+---
+
+## 📈 Key Insights
+- Higher **GRE scores** increase admission probability, especially above 320+
+- **CGPA** is the strongest driver of admission success
+- **Research experience** adds value but is secondary to academics
+- Strong **SOP & LOR** can significantly boost chances in competitive profiles
+- Top universities require a balanced, all-round strong application
+
+---
+
+## 🧠 What This Project Shows
+Admissions are not based on a single factor. Strong academics form the foundation, while supporting elements like SOP and LOR help differentiate candidates with similar scores.
+
+---
+
+## 📷 Dashboard Preview
+![Dashboard Screenshot](dashboard-preview.png)
+
+---
+
+## 🚀 How to Use
+1. Open the Excel file  
+2. Use filters (left panel) to adjust profile inputs  
+3. Analyze how admission probability changes  
+
+---
+
+## 📁 Project Structure
+
+# Project 3
 
 **Title:** SQL Data Definition Language Sales Data
 
