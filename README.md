@@ -33,11 +33,13 @@ The dashboard provides an interactive view of how factors like category, platfor
 ---
 
 ## 📈 Key Insights
-- Business and Office Tools courses show the highest engagement levels
-- Programming and Data Science courses have the highest average ratings
-- Udemy demonstrates the strongest completion rates among platforms
-- Marketing courses attract the highest enrollments but do not always lead to the highest completion rates, indicating potential engagement or content quality gaps
-- Higher-priced courses tend to cluster in technical and professional categories
+- Enrollment ≠ Engagement: Marketing and Technology attract the most learners but lag in engagement, while Business and Office Tools drive stronger interaction—highlighting a gap between demand and actual course value
+- Premium ≠ Engaging: Data Science and Programming command the highest prices and ratings, yet show lower engagement, suggesting perceived career value outweighs user experience
+- Optimal Duration Window: Courses in the 21–60 hour range achieve the highest completion rates, revealing a clear “sweet spot” between depth and learner fatigue
+- Scale vs. Efficiency: Udemy leads in total completions, but its advantage appears volume-driven rather than efficiency-based compared to other platforms
+- Ratings Bias Effect: High ratings in technical categories likely reflect survivorship bias, where only highly committed learners complete and review courses
+- Course performance is fragmented demand, pricing, and learner behavior are misaligned, indicating that improving content quality, structure, and duration will drive better outcomes
+  than simply increasing enrollment
 
 ---
 
