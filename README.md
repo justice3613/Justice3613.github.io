@@ -1,6 +1,6 @@
 # Data analytic portfolio 
 
-# 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_course_uses.xlsx)
+## 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_course_uses.xlsx)
 
 ## 📌 Overview
 This project analyzes online course data to understand patterns in student engagement, completion rates, and platform performance. The goal is to identify what drives course success across different categories and learning platforms.
@@ -47,7 +47,7 @@ The dashboard provides an interactive view of how factors like category, platfor
 ---
 
 # Project 2
-# 🎓[University Admission Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
+## 🎓[University Admission Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
 
 ## 🛠 Tools Used
 - Microsoft Excel (Pivot Tables, Power Query)
