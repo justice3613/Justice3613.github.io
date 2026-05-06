@@ -35,7 +35,10 @@ The dashboard provides an interactive view of how factors like category, platfor
 ## 📈 Key Insights
 - Enrollment ≠ Engagement: Marketing and Technology attract the most learners but lag in engagement, while Business and Office Tools drive stronger interaction—highlighting a gap between demand and actual course value
 - Premium ≠ Engaging: Data Science and Programming command the highest prices and ratings, yet show lower engagement, suggesting perceived career value outweighs user experience
-- Optimal Duration Window: Courses in the 21–60 hour range achieve the highest completion rates, revealing a clear “sweet spot” between depth and learner fatigue
+- Optimal Duration Window: Completion is not tied to shorter courses, the highest rate (75.61%)
+comes from the longest duration (81-100 hrs). Still, shorter formats
+like 21-40 hrs also perform well, showing that structure and
+perceived value matter more than course length alone.
 - Scale vs. Efficiency: Udemy leads in total completions, but its advantage appears volume-driven rather than efficiency-based compared to other platforms
 - Ratings Bias Effect: High ratings in technical categories likely reflect survivorship bias, where only highly committed learners complete and review courses
 - Course performance is fragmented demand, pricing, and learner behavior are misaligned, indicating that improving content quality, structure, and duration will drive better outcomes
