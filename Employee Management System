@@ -67,3 +67,159 @@ UNION
 
 SELECT EmpId
 FROM [dbo].[Employee_Salary$];
+
+--NEW SQL QUERY
+
+SELECT *
+FROM [dbo].['Employee Info$']
+
+SELECT *
+FROM [dbo].['Employee position$']
+
+SELECT *
+FROM [dbo].[NewEmployeeInfo]
+
+--1	Write a query to fetch the EmpFname from the EmployeeInfo table in the upper case and use the ALIAS name as EmpName.
+	SELECT UPPER([EmpFname]) AS EmpName
+	FROM [dbo].['Employee Info$']
+
+--2	Write a query to fetch the number of employees working in the department ‘HR’.
+	SELECT COUNT(*) AS TotalHREmployees
+	FROM [dbo].['Employee Info$']
+	WHERE [Department] ='HR';
+
+--3	Write a query to get the current date.
+	SELECT GETDATE();
+--	SELECT CURRENT_DATE;
+	
+--4	Write a query to retrieve the first four characters of  EmpLname from the EmployeeInfo table.
+	SELECT LEFT(EmpLname, 4) AS FirstFourChars
+	FROM [dbo].['Employee Info$']
+
+--5	Write a query to fetch only the place name(string before brackets) from the Address 
+--column of EmployeeInfo table.
+	SELECT LEFT(Address, CHARINDEX('(', Address) - 1) AS PlaceName
+	FROM [dbo].['Employee Info$']
+	WHERE [EmpFname] IS NOT NULL
+
+--6	Write a query to create a new table that consists of data and structure copied from the other table.
+	SELECT *
+	INTO new_table
+	FROM [dbo].['Employee position$'];
+
+
+--7	Write q query to find all the employees whose salary is between 50000 to 100000.
+	SELECT *
+	FROM [dbo].['Employee position$']
+	WHERE SALARY BETWEEN 50000 AND 100000
+
+--8	Write a query to find the names of employees that begin with ‘S’
+	SELECT *
+	FROM [dbo].['Employee Info$']
+	WHERE [EmpFname] LIKE 'S%';
+
+--9	Write a query to fetch top N records.
+	SELECT TOP 5 *
+	FROM [dbo].['Employee position$']
+	--SELECT *
+	--FROM [dbo].['Employee position$']
+	--LIMIT 5;
+
+--10	Write a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
+	SELECT [EmpFname] + ' ' + [EmpLname] AS FULLNAME
+	FROM [dbo].['Employee Info$']
+
+--11	Write a query find number of employees whose DOB is between 02/05/1970 to 31/12/1995 and are grouped according to gender
+	SELECT Gender, COUNT(*) AS TotalEmployees
+	FROM [dbo].['Employee Info$']
+	WHERE DOB BETWEEN '1970-05-02' AND '1995-12-31'
+	GROUP BY Gender;
+
+--12	Write a query to fetch all the records from the EmployeeInfo table ordered by EmpLname in descending order and Department in the ascending order.
+	SELECT *
+	FROM [dbo].['Employee Info$']
+	ORDER BY EmpLname DESC, Department ASC;
+
+--13	Write a query to fetch details of employees whose EmpLname ends with an alphabet ‘A’ and contains five alphabets.
+	SELECT *
+	FROM [dbo].['Employee Info$']
+	WHERE EmpLname LIKE '____A';
+
+--14	Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
+	SELECT *
+	FROM [dbo].['Employee Info$']
+	WHERE [EmpFname] NOT IN ('SANJAY', 'SONIA');
+
+--15	Write a query to fetch details of employees with the address as “DELHI(DEL)”
+	SELECT *
+	FROM [dbo].['Employee Info$']
+	WHERE [Address] = 'DELHI(DEL)';
+
+--16	Write a query to fetch all employees who also hold the managerial position.
+	SELECT *
+	FROM [dbo].['Employee position$']
+	WHERE [EmpPosition] = 'MANAGER';
+
+	SELECT ei.*
+	FROM  [dbo].['Employee Info$'] ei
+	JOIN [dbo].['Employee position$'] ep
+	ON ei.[EmpID] = ep.EmpID
+	WHERE ep.[EmpPosition] = 'MANAGER';
+	
+
+--17	Write a query to fetch the department-wise count of employees sorted by department’s count in ascending order
+	SELECT Department, COUNT(*) AS TotalEmployees
+	FROM [dbo].['Employee Info$']
+	GROUP BY Department
+	ORDER BY TotalEmployees ASC;
+
+--18	Write a query to fecth Male employees in HR department
+	SELECT *
+	FROM [dbo].['Employee Info$']
+	WHERE [Department] = 'HR' AND [Gender] = 'M';
+
+--19 Write a SQL query to retrieve employee details from EmployeeInfo table who have a date of joining 
+--   in the EmployeePosition table
+SELECT [EmpFname]
+		,[EmpLname]
+		,[Department]
+		,[Project]
+		,[Address]
+		,[DOB]
+		,[Gender]
+FROM [dbo].['Employee Info$'] AS EI
+JOIN [dbo].['Employee position$'] AS EP
+ON EI.[EmpID] = EP.EmpID
+
+
+SELECT ei.*
+FROM  [dbo].['Employee Info$'] AS ei
+JOIN [dbo].['Employee position$'] AS ep
+ON ei.[EmpID] = ep.EmpID
+WHERE ep.DateOfJoining IS NOT NULL;
+
+--20	Write a query to retrieve two minimum and maximum salaries from the EmployeePosition table
+	-- Two Minimum Salaries
+	SELECT TOP (2) Salary
+	FROM [dbo].['Employee position$']
+	WHERE DateOfJoining IS NOT NULL
+	ORDER BY Salary ASC
+
+	-- Two Maximum Salaries
+	SELECT TOP 2 Salary
+	FROM [dbo].['Employee position$']
+	WHERE DateOfJoining IS NOT NULL
+	ORDER BY Salary DESC;
+
+--BEST APPROACH OF ANSWERING THE QUESTION
+WITH CTE AS(
+SELECT *
+	    , RANK() OVER(ORDER BY Salary DESC) AS ascending
+		, RANK() OVER(ORDER BY Salary ASC) AS decending
+FROM [dbo].['Employee position$']
+WHERE DateOfJoining IS NOT NULL
+)
+
+SELECT *
+FROM CTE
+WHERE ascending <=2 or decending <=2
