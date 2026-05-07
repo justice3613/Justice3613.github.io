@@ -60,7 +60,7 @@ This dashboard serves as a valuable analytical tool for online learning platform
 # Project 2
 ## 🎓[University Admission Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
 
-## 🛠 Tools Used
+## Tools Used
 - Microsoft Excel (Pivot Tables, Power Query)
 - Data Cleaning & Transformation
 - Data Visualization
@@ -83,11 +83,24 @@ This project analyzes the key factors influencing university admission probabili
 ---
 
 ## 📈 Key findings
-- Higher **GRE scores** increase admission probability, especially above 320+
-- **CGPA** is the strongest driver of admission success
-- **Research experience** adds value but is secondary to academics
-- Strong **SOP & LOR** can significantly boost chances in competitive profiles
-- Top universities require a balanced, all round strong application
+- Higher GRE Scores Significantly Improve Admission Chances:
+Students with GRE scores of 330+ showed the highest probability of admission, while lower GRE ranges had noticeably reduced chances. This indicates that GRE performance remains a major factor in university admissions.
+
+- Strong Academic Performance Increases Acceptance Probability:
+Applicants with a CGPA above 9.0 had the strongest admission outcomes, highlighting the importance of consistent academic excellence in the selection process.
+
+- Research Experience Provides a Competitive Advantage:
+Students with prior research experience demonstrated higher admission probabilities compared to those without research exposure, showing that universities value practical and academic research involvement.
+
+- University Ratings Closely Align with Student CGPA:
+Higher rated universities were associated with applicants having stronger CGPAs, suggesting that top institutions tend to attract academically high-performing students.
+
+- Impact of SOP and LOR on Admission Chances:
+The heat map shows that applicants with strong SOP and LOR scores, especially in the 4.0–5.0 range, have the highest chances of admission, highlighting the importance of a well-rounded and compelling application profile.
+
+- Balanced Profiles Perform Better:
+The dashboard indicates that students with a combination of strong GRE scores, high CGPA, and research experience are more likely to secure admission offers.
+
 
 ---
 
