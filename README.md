@@ -2,7 +2,7 @@
 
 ## 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_course_uses.xlsx)
 
-## Overview
+## Project Description
 This project analyzes online course data to understand patterns in student engagement, completion rates, and platform performance. The goal is to identify what drives course success across different categories and learning platforms.
 
 The dashboard provides an interactive view of how factors like category, platform, pricing, and ratings influence enrollment and completion behavior.
