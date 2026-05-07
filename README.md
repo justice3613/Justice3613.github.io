@@ -49,6 +49,7 @@ The dashboard provides an interactive view of how factors like category, platfor
 
  - Strategic Growth Opportunities: The dashboard highlights opportunities to enhance low performing categories through updated content, interactive learning experiences, and platform specific course strategies.
 This dashboard serves as a valuable analytical tool for online learning platforms and education providers, enabling data driven decisions related to course development, learner engagement, pricing strategies, and platform optimization.
+
 ---
 
 ## 📷 Dashboard Preview
