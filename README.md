@@ -33,17 +33,22 @@ The dashboard provides an interactive view of how factors like category, platfor
 ---
 
 ## 📈 Key Insights
-- Enrollment ≠ Engagement: Marketing and Technology attract the most learners but lag in engagement, while Business and Office Tools drive stronger interaction—highlighting a gap between demand and actual course value
-- Premium ≠ Engaging: Data Science and Programming command the highest prices and ratings, yet show lower engagement, suggesting perceived career value outweighs user experience
-- Optimal Duration Window: Completion is not tied to shorter courses, the highest rate (75.61%)
-comes from the longest duration (81-100 hrs). Still, shorter formats
-like 21-40 hrs also perform well, showing that structure and
-perceived value matter more than course length alone.
-- Scale vs. Efficiency: Udemy leads in total completions, but its advantage appears volume-driven rather than efficiency-based compared to other platforms
-- Ratings Bias Effect: High ratings in technical categories likely reflect survivorship bias, where only highly committed learners complete and review courses
-- Course performance is fragmented demand, pricing, and learner behavior are misaligned, indicating that improving content quality, structure, and duration will drive better outcomes
-  than simply increasing enrollment
+- Learner Engagement Patterns: Identified Business courses as the most engaging category, indicating that learners are highly interested in career-oriented and practical professional skills.
 
+- Enrollment Trends: Marketing courses recorded the highest enrollments, showing strong learner demand and broad audience appeal, while Programming and Technology attracted comparatively fewer enrollments.
+
+- Premium Course Categories: Data Science and Programming emerged as the most expensive course categories, reflecting their high market demand and perceived career value.
+
+- Course Duration Impact: Long duration courses (81–100 hours) achieved the highest completion rates, suggesting that committed learners are more likely to complete in-depth and structured learning programs.
+
+- Category Satisfaction Levels: Data Science received the highest learner ratings, indicating strong course quality and learner satisfaction, whereas AI and Technology categories showed lower ratings and may require content improvement.
+
+- Platform Performance Comparison: edX demonstrated the highest average completion rates among all platforms, highlighting the effectiveness of structured and academic style learning environments.
+
+- Enrollment vs Engagement Gap: Although Marketing courses attracted the largest number of learners, they did not achieve the highest engagement levels, revealing opportunities to improve learner retention and interaction.
+
+ - Strategic Growth Opportunities: The dashboard highlights opportunities to enhance low performing categories through updated content, interactive learning experiences, and platform specific course strategies.
+This dashboard serves as a valuable analytical tool for online learning platforms and education providers, enabling data driven decisions related to course development, learner engagement, pricing strategies, and platform optimization.
 ---
 
 ## 📷 Dashboard Preview
