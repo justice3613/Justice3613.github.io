@@ -67,7 +67,7 @@ This dashboard serves as a valuable analytical tool for online learning platform
   
 ---
 
-## Project Description:
+## Project Description
 This project explores how GRE scores, CGPA, research experience, and supporting documents (SOP & LOR) influence admission chances all through an interactive Excel dashboard designed for quick, real insights.
 
 This project analyzes the key factors influencing university admission probability using an interactive Excel dashboard. It focuses on understanding how academic performance and supporting elements combine to impact outcomes.
