@@ -2,7 +2,7 @@
 
 ## 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_course_uses.xlsx)
 
-## 📌 Overview
+## Overview
 This project analyzes online course data to understand patterns in student engagement, completion rates, and platform performance. The goal is to identify what drives course success across different categories and learning platforms.
 
 The dashboard provides an interactive view of how factors like category, platform, pricing, and ratings influence enrollment and completion behavior.
@@ -16,14 +16,14 @@ The dashboard provides an interactive view of how factors like category, platfor
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 - Microsoft Excel (Pivot Tables, Power Query)
 - Data Cleaning & Transformation
 - Data Visualization
 
 ---
 
-## 📊 Features
+## Features
 - Interactive filters for course category and platform
 - Comparison of engagement levels across course types
 - Analysis of completion rates by platform
@@ -67,14 +67,14 @@ This dashboard serves as a valuable analytical tool for online learning platform
   
 ---
 
-## 📌 Project Description:
+## Project Description:
 This project explores how GRE scores, CGPA, research experience, and supporting documents (SOP & LOR) influence admission chances all through an interactive Excel dashboard designed for quick, real insights.
 
 This project analyzes the key factors influencing university admission probability using an interactive Excel dashboard. It focuses on understanding how academic performance and supporting elements combine to impact outcomes.
 
 ---
 
-## 📊 Features
+## Features
 - Interactive filters (GRE score, CGPA group, research experience)
 - Visual breakdown of admission probability
 - Comparative analysis across different student profiles
@@ -91,7 +91,7 @@ This project analyzes the key factors influencing university admission probabili
 
 ---
 
-## 🧠 What This Project Shows
+## What This Project Shows
 Admissions are not based on a single factor. Strong academics form the foundation, while supporting elements like SOP and LOR help differentiate candidates with similar scores.
 
 ---
