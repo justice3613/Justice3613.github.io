@@ -75,11 +75,31 @@ This project analyzes the key factors influencing university admission probabili
 
 ---
 
-## Features
-- Interactive filters (GRE score, CGPA group, research experience)
-- Visual breakdown of admission probability
-- Comparative analysis across different student profiles
-- Clean and intuitive dashboard layout
+## 📊 Dashboard Features
+
+### Effect of GRE Score on Admission Probability
+A column chart showing how GRE score ranges influence admission probability. The visual helps reveal how stronger GRE scores are associated with better admission chances.
+
+### Role of Research Experience in Admissions
+A horizontal bar chart comparing admission probability between applicants with and without research experience, helping assess the impact of research exposure on admission outcomes
+
+### Impact of CGPA on Admission Probability
+A column chart illustrating how CGPA ranges affect admission chances, making it easier to understand the relationship between academic performance and admission success.
+
+### Relationship Between University Rating and CGPA
+A horizontal bar chart exploring the connection between university rating and student CGPA, helping identify how academic performance aligns with institutional quality.
+
+### Impact of SOP and LOR on Admission Chance
+A heatmap/matrix visualization showing how Statement of Purpose (SOP) scores and Letter of Recommendation (LOR) scores influence admission probability. This helps evaluate how qualitative application components contribute to admission success.
+
+### Interactive Filters
+Users can filter the dashboard by:
+
+- **GRE Range**
+- **Research Experience**
+- **CGPA Group**
+
+These filters allow users to dynamically explore admission trends and compare applicant performance across different academic and profile categories.
 
 ---
 
