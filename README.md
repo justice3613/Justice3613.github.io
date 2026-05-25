@@ -1,4 +1,5 @@
 # Data analytic portfolio 
+# Project 1
 
 ## 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_course_uses.xlsx)
 
@@ -113,8 +114,93 @@ Admissions are not based on a single factor. Strong academics form the foundatio
 ![Dashboard Screenshot](dashboard-preview.png) 
 
 ---
+# Project 3 
+##  ⚽[Football Players Analysis Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
 
-# Project 3
+---
+
+## 🛠️ Tools Used
+
+- **Power BI** – Data visualization and dashboard creation  
+- **Microsoft Excel** – Data cleaning and preprocessing  
+- **DAX (Data Analysis Expressions)** – Calculated columns and measures
+
+---
+
+## 📌 Project Description
+
+This project focused on analysing football player data to better understand how factors such as age, performance, market value, wages, clubs, positions, and nationality influence player valuation and overall performance. The aim was to transform raw player data into meaningful insights that could support football scouting, recruitment decisions, and talent evaluation.
+
+The dashboard was designed to give a clear and interactive overview of key player performance and financial metrics, helping users quickly identify patterns, compare players, and explore how value is distributed across clubs, countries, and playing positions.
+
+The dashboard includes the following features:
+
+---
+
+## 📊 Dashboard Features
+
+### Player Rating by Age & Market Value
+A scatter plot showing the relationship between player age, overall rating, and market value. This helps identify peak performance periods and understand how player value changes across age groups.
+
+### Average Market Value by Player Role
+A comparison of average market values across different player positions, showing which roles command higher value in modern football.
+
+### Top 5 Clubs by Market Value
+Highlights clubs with the highest combined squad market value, revealing teams investing heavily in elite players.
+
+### Top 5 Players by Market Value
+Displays the most valuable players in the dataset, making it easier to identify football's top assets.
+
+### Best Value per £1 of Wage
+Shows players providing the highest market value relative to wages, helping identify financially efficient talent.
+
+### Top 10 Countries by Market Value
+Visualizes countries producing the highest-valued football players.
+
+### Interactive Filters
+Users can filter the dashboard by:
+
+- **Position**
+- **Nationality**
+- **Club**
+
+This makes it easier to drill down into specific segments and compare players dynamically.
+
+---
+
+## 🔍 Key Insights
+
+### Peak Performance Age
+Most highly rated football players fall between **24 and 31 years old**, suggesting this age range represents peak performance.
+
+### Most Valuable Player Roles
+**Wingers and attacking midfielders** recorded the highest average market values, reflecting the importance of attacking creativity in modern football.
+
+### Top Clubs Dominate Market Value
+Clubs such as **Real Madrid, FC Barcelona, Manchester City, Juventus, and Bayern Munich** consistently ranked among the highest in squad market value.
+
+### Best Value for Money Players
+Certain players delivered significantly higher market value relative to wages, highlighting strong financial efficiency.
+
+### Talent Concentration by Country
+Countries including **Spain, Brazil, France, Germany, and Argentina** emerged as major contributors of high-value football talent.
+
+---
+
+## 📈 Dashboard Overview
+
+The dashboard provides a comprehensive view of football player performance and financial value. It combines player ratings, age, wages, market value, club strength, and nationality into one interactive experience.
+
+By using dynamic filters and visual analysis, users can explore football talent from multiple perspectives and uncover patterns that support smarter recruitment and player valuation decisions.
+
+---
+
+## 📷 Dashboard Preview
+![Dashboard Screenshot](Players-dashboard.png) 
+
+---
+
+# Project 4
 
 **Title:** SQL Data Definition Language Sales Data
 
