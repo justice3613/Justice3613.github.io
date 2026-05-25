@@ -1,64 +1,5 @@
 # Data analytic portfolio 
 # Project 1
-
-## 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_course_uses.xlsx)
-
-## Project Description
-This project analyzes online course data to understand patterns in student engagement, completion rates, and platform performance. The goal is to identify what drives course success across different categories and learning platforms.
-
-The dashboard provides an interactive view of how factors like category, platform, pricing, and ratings influence enrollment and completion behavior.
-
----
-
-**Filters Available:**
-
-- **Category:** Analyze performance across different course categories  
-- **Platform:** Compare performance across learning plat
-
----
-
-## Tools Used
-- Microsoft Excel (Pivot Tables, Power Query)
-- Data Cleaning & Transformation
-- Data Visualization
-
----
-
-## Features
-- Interactive filters for course category and platform
-- Comparison of engagement levels across course types
-- Analysis of completion rates by platform
-- Identification of top-performing courses and categories
-- KPI cards for quick performance overview
-
----
-
-## 📈 Key Insights
-- Learner Engagement Patterns: Identified Business courses as the most engaging category, indicating that learners are highly interested in career-oriented and practical professional skills.
-
-- Enrollment Trends: Marketing courses recorded the highest enrollments, showing strong learner demand and broad audience appeal, while Programming and Technology attracted comparatively fewer enrollments.
-
-- Premium Course Categories: Data Science and Programming emerged as the most expensive course categories, reflecting their high market demand and perceived career value.
-
-- Course Duration Impact: Long duration courses (81–100 hours) achieved the highest completion rates, suggesting that committed learners are more likely to complete in-depth and structured learning programs.
-
-- Category Satisfaction Levels: Data Science received the highest learner ratings, indicating strong course quality and learner satisfaction, whereas AI and Technology categories showed lower ratings and may require content improvement.
-
-- Platform Performance Comparison: edX demonstrated the highest average completion rates among all platforms, highlighting the effectiveness of structured and academic style learning environments.
-
-- Enrollment vs Engagement Gap: Although Marketing courses attracted the largest number of learners, they did not achieve the highest engagement levels, revealing opportunities to improve learner retention and interaction.
-
- - Strategic Growth Opportunities: The dashboard highlights opportunities to enhance low performing categories through updated content, interactive learning experiences, and platform specific course strategies.
-This dashboard serves as a valuable analytical tool for online learning platforms and education providers, enabling data driven decisions related to course development, learner engagement, pricing strategies, and platform optimization.
-
----
-
-## 📷 Dashboard Preview
-![courseScreenShot](OnlineCourse_dashboard.png)
-  
----
-
-# Project 2
 ## 🎓[University Admission Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
 
 ## Tools Used
@@ -134,6 +75,81 @@ Admissions are not based on a single factor. Strong academics form the foundatio
 ![Dashboard Screenshot](dashboard-preview.png) 
 
 ---
+
+# Project 2
+
+## 📚 [Online Courses Performance & Engagement Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/online_course_uses.xlsx)
+---
+
+## Tools Used
+- Microsoft Excel (Pivot Tables, Power Query)
+- Data Cleaning & Transformation
+- Data Visualization
+
+---
+
+## Project Description
+This project analyzes online course data to understand patterns in student engagement, completion rates, and platform performance. The goal is to identify what drives course success across different categories and learning platforms.
+
+The dashboard provides an interactive view of how factors like category, platform, pricing, and ratings influence enrollment and completion behavior.
+
+---
+
+## 📊 Dashboard Features
+
+### Top 5 Most Engaged Courses
+A column chart highlighting the top-performing course categories based on student engagement. This helps identify which course areas attract and retain the most learner participation.
+
+### Top 5 Most Expensive Courses
+An area chart comparing the highest-priced course categories, helping users understand pricing trends across different learning areas.
+
+### Impact of Course Duration on Completion Rate
+A horizontal bar chart showing the relationship between course duration and completion rate. This helps determine whether shorter or longer courses tend to achieve higher completion levels.
+
+### Most Enrolled Category
+A line chart visualizing student enrollment across different course categories, making it easier to identify the most popular learning areas among students.
+
+### Average Rating by Category (Out of 5)
+A horizontal bar chart comparing average learner ratings across course categories, helping assess learner satisfaction and course quality.
+
+## Most Used Platforms by Completion Rate
+A column chart showing how different learning platforms perform based on course completion rates, helping identify platforms with stronger learner engagement.
+
+### Interactive Filters
+Users can filter the dashboard by:
+
+- **Category:** Analyze performance across different course categories  
+- **Platform:** Compare performance across learning platforms
+
+These filters allow users to dynamically explore course performance, engagement, enrollment, ratings, and completion trends across different categories and learning platforms.
+
+---
+
+## 📈 Key Insights
+- Learner Engagement Patterns: Identified Business courses as the most engaging category, indicating that learners are highly interested in career-oriented and practical professional skills.
+
+- Enrollment Trends: Marketing courses recorded the highest enrollments, showing strong learner demand and broad audience appeal, while Programming and Technology attracted comparatively fewer enrollments.
+
+- Premium Course Categories: Data Science and Programming emerged as the most expensive course categories, reflecting their high market demand and perceived career value.
+
+- Course Duration Impact: Long duration courses (81–100 hours) achieved the highest completion rates, suggesting that committed learners are more likely to complete in-depth and structured learning programs.
+
+- Category Satisfaction Levels: Data Science received the highest learner ratings, indicating strong course quality and learner satisfaction, whereas AI and Technology categories showed lower ratings and may require content improvement.
+
+- Platform Performance Comparison: edX demonstrated the highest average completion rates among all platforms, highlighting the effectiveness of structured and academic style learning environments.
+
+- Enrollment vs Engagement Gap: Although Marketing courses attracted the largest number of learners, they did not achieve the highest engagement levels, revealing opportunities to improve learner retention and interaction.
+
+ - Strategic Growth Opportunities: The dashboard highlights opportunities to enhance low performing categories through updated content, interactive learning experiences, and platform specific course strategies.
+This dashboard serves as a valuable analytical tool for online learning platforms and education providers, enabling data driven decisions related to course development, learner engagement, pricing strategies, and platform optimization.
+
+---
+
+## 📷 Dashboard Preview
+![courseScreenShot](OnlineCourse_dashboard.png)
+  
+---
+
 # Project 3 
 ##  ⚽[Football Players Analysis Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
 
