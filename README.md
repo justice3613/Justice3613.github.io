@@ -151,7 +151,7 @@ This dashboard serves as a valuable analytical tool for online learning platform
 ---
 
 # Project 3 
-##  ⚽[Football Players Analysis Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/admission_data_set.xlsx)
+##  ⚽[Football Players Analysis Dashboard](https://github.com/justice3613/Justice3613.github.io/blob/main/fifa2.pbix)
 
 ---
 
